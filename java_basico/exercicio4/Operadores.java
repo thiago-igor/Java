@@ -1,4 +1,4 @@
-package java_basico.exercico4;
+package java_basico.exercicio4;
 
 public class Operadores {
 
