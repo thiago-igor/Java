@@ -19,8 +19,12 @@ public class IfElse {
             System.out.println("parabens, voce passou!!!");
         }
 
-        else{
+        else if (media>3 && media<7){
             System.out.println("voce esta de recuperacao");
+        }
+
+        else{
+            System.out.println("voce esta reprovado(a)");
         }
     
 
