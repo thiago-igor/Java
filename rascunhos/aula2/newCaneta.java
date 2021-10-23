@@ -1,4 +1,4 @@
-package aula2;
+package rascunhos.aula2;
 public class newCaneta {
     public static void main(String[] args) throws Exception {
         caneta c1 = new caneta();

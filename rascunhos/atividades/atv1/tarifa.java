@@ -1,4 +1,4 @@
-package atividades.atv1;
+package rascunhos.atividades.atv1;
 
 public class tarifa {
 

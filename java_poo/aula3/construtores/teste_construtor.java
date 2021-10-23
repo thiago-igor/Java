@@ -1,4 +1,4 @@
-package java_poo.aula1_construtores;
+package java_poo.aula3.construtores;
 
 public class teste_construtor {
 
