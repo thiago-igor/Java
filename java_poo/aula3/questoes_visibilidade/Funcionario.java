@@ -1,8 +1,10 @@
-package java_poo.aula3.visibilidade_e_encapsulamento.questoes_propostas;
+package java_poo.aula3.questoes_visibilidade;
+
+import java.util.Date;
 
 public class Funcionario {
     private String nome;
-    private int dataAdmissao;
+    private Date dataAdmissao;
     private double salario;
     private int identificador;
 
@@ -21,10 +23,10 @@ public class Funcionario {
         this.nome = nome;
     }
 
-    public int getDataAdmissao(){
+    public Date getDataAdmissao(){
         return this.dataAdmissao;
     }
-    public void setDataAdmissao(int dataAdmissao){
+    public void setDataAdmissao(Date dataAdmissao){
         this.dataAdmissao = dataAdmissao;
     }
 

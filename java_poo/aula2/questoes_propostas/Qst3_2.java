@@ -1,6 +1,6 @@
 // fatorial:
 
-package java_poo.questoes_propostas.atividade2;
+package java_poo.aula2.questoes_propostas;
 
 import java.util.Scanner;
 

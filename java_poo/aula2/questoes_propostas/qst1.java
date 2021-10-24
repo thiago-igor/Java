@@ -6,7 +6,7 @@ c)	imprime y
 O programa deve então armazenar o valor de y em x e continuar até que y tenha o valor final de 1. Por exemplo, para x = 13, a saída será: 40 -> 20 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1.
  */
 
-package java_poo.questoes_propostas.atividade2;
+package java_poo.aula2.questoes_propostas;
 
 import java.util.Scanner;
 
