@@ -7,10 +7,10 @@ public class ClasseEncapsulada {
 	
 	// Definiçao de metodos acessores publicos
 	public int getA() { // serve para conseguir ler
-		return a;
+		return this.a;
 	}
-	public void setB(int b) { // serve para conseguir alterar
-		this.b = b;
+	public void setA(int a) { // serve para conseguir alterar
+		this.a = a;
 	}
 	
 }

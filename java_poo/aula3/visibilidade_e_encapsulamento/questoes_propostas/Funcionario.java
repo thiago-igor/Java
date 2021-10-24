@@ -4,6 +4,15 @@ public class Funcionario {
     private String nome;
     private int dataAdmissao;
     private double salario;
+    private int identificador;
+
+    public int getIdentificador(){
+        return this.identificador;
+    }
+
+    public void setIdentificador(int identificador){
+        this.identificador = identificador;
+    }
 
     public String getNome(){
         return this.nome;

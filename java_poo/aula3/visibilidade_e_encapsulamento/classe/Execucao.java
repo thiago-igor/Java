@@ -10,9 +10,9 @@ class Base {
 public class Execucao {
 	public static void main(String[] args) {
 		Base b = new Base();
-		// Acesso a atributo atrav�s da inst�ncia da classe
+		// Acesso a atributo atraves da instancia da classe
 		b.x = 10;
-		// Acesso a m�todo atrav�s da inst�ncia da classe
+		// Acesso a metodo atraves da instancia da classe
 		b.imprime();
 	}
 }
