@@ -3,42 +3,58 @@ package java_poo.aula3.construtores.projeto1;
 import java.util.Date;
 
 public class Animal {
-    //ATRIBUTOS
-    private String especie;
-    private char sexo; // "m" Para maco e "f" para femia
-    private String nome;
-    private Date dataDeNascimento;
+	
+	private String especie;
+	private char sexo; //'m' para macho e 'f' para f�mea
+	private String nome;
+	private Date dataDeNascimento;
+	
+	public Animal() { // construtor 1
+		
+	}
+	
+	public Animal(String especie, char sexo) { // construtor 2
+		this.especie = especie;
+		this.sexo = sexo;
+	}
+	
+	public Animal(String especie, char sexo, String nome,
+			Date dataDeNascimento) { // construtor 3
+		this(especie,sexo);
+		this.nome = nome;
+		this.dataDeNascimento = dataDeNascimento;
+	}
 
-    public Animal(){ // CONSTRUTOR 1
+	public String getEspecie() {
+		return especie;
+	}
 
-    }
+	public void setEspecie(String especie) {
+		this.especie = especie;
+	}
 
-    public Animal(String especie, char sexo){  // CONSTRUTOR 2
-        this.especie = especie;
-        this.sexo = sexo;
-    }
+	public char getSexo() {
+		return sexo;
+	}
 
-    public Animal(String especie, char sexo, String nome,Date dataDeNascimento){ // CONSTRUTOR 3
-        this(especie, sexo); // esta utilizando os parametos que ja recebeu a cima
-        this.nome = nome;
-        this.dataDeNascimento = dataDeNascimento;
+	public void setSexo(char sexo) {
+		this.sexo = sexo;
+	}
 
-    }
-    
-    public String gatNome(){
-        return nome;
-    }
+	public String getNome() {
+		return nome;
+	}
 
-    public void setNome(String nome){
-        this.nome = nome;
-    }
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 
-    public Date getDataDeNascimento(){
-        return dataDeNascimento;
-    }
+	public Date getDataDeNascimento() {
+		return dataDeNascimento;
+	}
 
-    public void setDataDeNascimento(Date dataDeNascimento){
-        this.dataDeNascimento = dataDeNascimento;
-    }
+	public void setDataDeNascimento(Date dataDeNascimento) {
+		this.dataDeNascimento = dataDeNascimento;
+	}
 
 }

@@ -16,8 +16,6 @@ public class Funcionario_2 {
 
     public static void main(String[]args){
         int x = 1; 
-        String ferias = null;
-        int dias = 30;
 
         Funcionario id = new Funcionario(); // instanciando um objeto de uma classe
 
@@ -62,7 +60,12 @@ public class Funcionario_2 {
             System.out.println("Salario abusivo para o Funcionario "+id3.getIdentificador());
         }
 
+
         System.out.println("------------");
+        String ferias = null;
+        int dias = 30;
+
+
         tirarFerias(ferias); // uso dos metodos,ou seja, funçoes escritas no começo do codigo para assim execultar a funçao
         tirarFerias(dias); // funçoes com o mesmo nome sao "sobrecargas" porem sempre com funçoes diferentes, e o compilador ver qual a melhor para ser usada
     }   

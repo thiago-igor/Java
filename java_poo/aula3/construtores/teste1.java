@@ -1,6 +1,6 @@
 package java_poo.aula3.construtores;
 
-public class teste_construtor {
+public class teste1 {
 
     public static void main(String[]args){
 

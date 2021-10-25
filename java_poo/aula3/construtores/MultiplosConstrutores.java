@@ -10,8 +10,10 @@ public class MultiplosConstrutores {
     }
 
     MultiplosConstrutores(String nome, String cpf, int idade){
-        this(nome,cpf); // reutiliza o nome e o cpf e esse comando tem que vir sempre na primeira linha do construtor
+        this(nome,cpf); // reutiliza os parametros do construtor de cima.
+        //OBS: essa diretiva tem que sempre ser a primeira do contrutor 
         this.idade = idade;
     }
+    //construtores sobrecarregados
 
 }
