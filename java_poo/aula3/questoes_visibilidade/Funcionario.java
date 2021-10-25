@@ -3,6 +3,7 @@ package java_poo.aula3.questoes_visibilidade;
 import java.util.Date;
 
 public class Funcionario {
+
     private String nome;
     private Date dataAdmissao;
     private double salario;
