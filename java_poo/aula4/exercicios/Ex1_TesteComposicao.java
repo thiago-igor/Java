@@ -1,6 +1,6 @@
 package java_poo.aula4.exercicios;
 
-public class Ex1_Teste {
+public class Ex1_TesteComposicao {
 
     public static void main(String[]args){
         // criando objeto

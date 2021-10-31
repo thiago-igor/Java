@@ -1,6 +1,6 @@
 package java_poo.aula4.heranca;
 
-public class Livro extends Produto { // o "extends" faz o papel de erança, ou seja, a sub classe livro ta tendo a herança dos atributos da superClasse "produto"
+public class Livro extends Produto { // o "extends" faz o papel de herança, ou seja, a sub classe livro ta tendo a herança dos atributos da superClasse "produto"
 
 	private String autor;
 	private int qtdPaginas;
@@ -41,7 +41,7 @@ public class Livro extends Produto { // o "extends" faz o papel de erança, ou s
 		this.qtdPaginas = qtdPaginas;
 	}
 	
-	public String toString() {
+	public String toString() { // da a representaçao em string de um determinado objeto
 		return "Livro: "+getNome()+", "+getPreco()+", "+
 				getAutor()+", "+getQtdPaginas()+" paginas";
 	}
