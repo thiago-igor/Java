@@ -1,4 +1,4 @@
-package rascunhos.aula2;
+package java_poo.CursoEmVideo.aula2;
 
 public class caneta {
     String modelo; // atributos
