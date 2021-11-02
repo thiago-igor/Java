@@ -1,7 +1,7 @@
 package java_poo.CursoEmVideo.aula6_encapsulamento;
 
 public interface Controlador {
-    public abstract void ligr();
+    public abstract void ligar();
     public abstract void desligar();
     public abstract void abrirMenur();
     public abstract void fecharMenu();
