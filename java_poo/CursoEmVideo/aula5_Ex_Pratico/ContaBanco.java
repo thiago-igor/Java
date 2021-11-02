@@ -6,14 +6,21 @@ public class ContaBanco {
     protected String tipo;
     private String dono;
     private float saldo;
-    private float real;
     private boolean status;
 
-    public ContaBanco(int saldo, boolean status){
+    public ContaBanco(){
         this.setSaldo(0);
         this.setStatus(false);
     }
 
+    public void estadoAtual(){
+        System.out.println("------------------");
+        System.out.println("Conta: "+getNumConta());
+        System.out.println("Tipo: "+getTipo());
+        System.out.println("Dono: "+getDono());
+        System.out.println("saldo: "+getSaldo());
+        System.out.println("Status: "+getStatus());
+    }
     
     public void abrirConta(String tipo){
         this.setTipo(tipo);
@@ -40,51 +47,49 @@ public class ContaBanco {
 
         else{
             setStatus(false);
+            System.out.println("Conta fechada com sucesso!");
         }
     }
 
     public void depositar(float real){
-        if(status = true){
-            setSaldo(getSaldo() + real);
+        if(this.getStatus()){
+            this.setSaldo(this.getSaldo() + real);
+            System.out.println("deposito realizado com sucesso na conta de "+getDono());
         }
         else{
-            System.out.println("invalido");
+            System.out.println("impossivel depositar pois a conta esta fechada");
         }
     }
 
     public void sacar(float real){
-        if(status == true){
-            if(saldo >= real){
-                setSaldo(getSaldo() - real); // ou saldo = saldo - real
+        if(this.getStatus()){
+            if(this.getSaldo() >= real){
+                this.setSaldo(this.getSaldo() - real); // ou saldo = saldo - real
+                System.out.println("saque realizado na conta de "+getDono());
             }
             else{
                 System.out.println("saldo indisponivel");
             }
         }
         else{
-            System.out.println("impossivel sacar");
+            System.out.println("impossivel sacar de uma conta fechada");
         }
     }
-    float v;
     public void pageMensal(){
-        if(tipo == "cc"){
-            v =12;
+        int v = 0;
+        if(this.getTipo() == "cc"){
+            v = 12;
         }
-        else if(tipo == "cp"){
-            v =20;
+        else if(this.getTipo() == "cp"){
+            v = 20;
         }
-        if(status == true){
-            if(saldo > v){
-                saldo = saldo - v;
-            }
+        if(this.getStatus()){
+            this.setSaldo(this.getSaldo() - v);
+        }
             else{
-                System.out.println("saldo insuficiente");
+                System.out.println("impossivel pagar");
             }
         }
-        else{
-            System.out.println("impossivel pagar");
-        }
-    }
 
     public int getNumConta() {
         return numConta;
@@ -124,16 +129,6 @@ public class ContaBanco {
 
     public void setStatus(Boolean status) {
         this.status = status;
-    }
-
-
-    public float getReal() {
-        return real;
-    }
-
-
-    public void setReal(float real) {
-        this.real = real;
     }
 
 
