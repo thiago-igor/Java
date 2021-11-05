@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula3.qst_sobrecarga;
+package java_poo.Faculdade.aula3.sobrecarga.qst_sobrecarga;
 
 public class sobrecarga2 {
 

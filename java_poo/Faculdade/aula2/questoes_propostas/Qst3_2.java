@@ -22,8 +22,8 @@ public class Qst3_2 {
             res *= x;
             System.out.print(" x "+x);
             x--;
-        }while(x!=1);
+        }while(x>=1);
 
-        System.out.print("=> "+res);
+        System.out.print(" => "+res);
     }
 }

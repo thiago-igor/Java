@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula3.qst_construtor;
+package java_poo.Faculdade.aula3.construtores.qst_construtor;
 
 public class estacao_ferroviaria {
 

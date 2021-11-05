@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula3.construtores;
+package java_poo.Faculdade.aula3.construtores.ex_aula;
 
 public class MultiplosConstrutores {
     

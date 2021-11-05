@@ -1,5 +1,6 @@
-package java_poo.Faculdade.aula3.construtores;
-    public class teste2 {
+package java_poo.Faculdade.aula3.construtores.ex_aula;
+
+public class teste2 {
 	
 	public static void main(String[] args) {
 		Pessoa2 p1 = new Pessoa2();

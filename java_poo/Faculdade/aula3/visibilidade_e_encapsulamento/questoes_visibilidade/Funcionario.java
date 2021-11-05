@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula3.questoes_visibilidade;
+package java_poo.Faculdade.aula3.visibilidade_e_encapsulamento.questoes_visibilidade;
 
 import java.util.Date;
 

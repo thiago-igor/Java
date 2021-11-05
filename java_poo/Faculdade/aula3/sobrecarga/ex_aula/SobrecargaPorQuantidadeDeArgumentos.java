@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula3.sobrecarga;
+package java_poo.Faculdade.aula3.sobrecarga.ex_aula;
 
 public class SobrecargaPorQuantidadeDeArgumentos {
 	
