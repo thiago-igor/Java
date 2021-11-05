@@ -3,20 +3,27 @@ package java_poo.Faculdade.aula5.sobreescrita.questoes;
 public class Pessoa {
 
     private String nome;
-	private String endereço;
+	private String endereco;
 	private int idade;
 	private String cpf;
 	private String sexo;
 	private boolean andar;
     
     
-    
-    
-    
-    
-    
-    
-    
+    public Pessoa(String nome, String endereco, int idade, String cpf, String sexo, boolean andar) {
+        this.nome = nome;
+        this.endereco = endereco;
+        this.idade = idade;
+        this.cpf = cpf;
+        this.sexo = sexo;
+        this.andar = andar;
+    }
+
+    public void imprimirValores(){
+        
+    }
+
+
     public String getNome() {
         return nome;
     }
@@ -24,10 +31,10 @@ public class Pessoa {
         this.nome = nome;
     }
     public String getEndereço() {
-        return endereço;
+        return endereco;
     }
     public void setEndereço(String endereço) {
-        this.endereço = endereço;
+        this.endereco = endereço;
     }
     public int getIdade() {
         return idade;
