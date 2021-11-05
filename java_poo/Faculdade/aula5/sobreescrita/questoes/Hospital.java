@@ -12,7 +12,7 @@ public class Hospital {
         this.endereco = endereco;
     }
 
-
+    // AQUI ESTA OCORRENDO A SOBRESCRITA DO METODO 
     public void imprimirValores(){
         System.out.println("Hospital "+nome);
         System.out.println("Endereco: "+endereco);

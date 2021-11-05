@@ -8,17 +8,17 @@ public class Paciente extends Pessoa {
     private boolean alta;
     
     public Paciente(String nome, String endereco, int idade, String cpf, String sexo, boolean andar, String doenca, String medicacao, boolean alta){
-        super(nome, endereco, idade, cpf, sexo, andar);
+        super(nome, endereco, idade, cpf, sexo, andar); // "SUPER" CHAMA OS ATRIBUTOS DO CONSTRUTOR DA CLASSE MAE "PESSOA"
         this.doenca = doenca; 
         this.medicacao = medicacao;
         this.alta = alta;
     }
 
-
+    // AQUI ESTA OCORRENDO A SOBRESCRITA DO METODO 
     public void imprimirValores(){
         System.out.println("---------------");
         System.out.println("Paciente:");
-        super.imprimirValores();
+        super.imprimirValores();  // COM O "SUPER" ESTAMOS CHAMANDO O METODO DA CLASSE MAE, QUE NESSE CASO SERIA "PESSOA"
         System.out.println("Doenca: "+doenca);
         System.out.println("Medicacao: "+medicacao);
         System.out.println("Pode sentir dor: "+dor);

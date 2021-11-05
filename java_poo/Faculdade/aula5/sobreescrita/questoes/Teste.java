@@ -9,7 +9,7 @@ public class Teste {
 
         Paciente p1 = new Paciente("thiago", "papic", 20, "33344455500", "M", true, "nao possue", "nao sera necessario", true);
 
-        h1.imprimirValores();
+        h1.imprimirValores(); 
         m1.imprimirValores();
         p1.imprimirValores();
     }
