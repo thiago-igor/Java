@@ -7,14 +7,24 @@ public class Paciente extends Pessoa {
     private boolean dor;
     private boolean alta;
     
-    public Paciente(String nome, String endereco, int idade, String cpf, String sexo, boolean andar, String doenca, String medicacao){
+    public Paciente(String nome, String endereco, int idade, String cpf, String sexo, boolean andar, String doenca, String medicacao, boolean alta){
         super(nome, endereco, idade, cpf, sexo, andar);
-        this.doenca = doenca;
+        this.doenca = doenca; 
         this.medicacao = medicacao;
+        this.alta = alta;
     }
 
 
-    
+    public void imprimirValores(){
+        System.out.println("---------------");
+        System.out.println("Paciente:");
+        super.imprimirValores();
+        System.out.println("Doenca: "+doenca);
+        System.out.println("Medicacao: "+medicacao);
+        System.out.println("Pode sentir dor: "+dor);
+        System.out.println("Pode ter alta: "+alta);
+        System.out.println("---------------");
+    }
 
     public String getDoenca() {
         return doenca;

@@ -20,7 +20,12 @@ public class Pessoa {
     }
 
     public void imprimirValores(){
-        
+        System.out.println("Nome: "+nome);
+        System.out.println("Endereco: "+endereco);
+        System.out.println("Idade: "+idade);
+        System.out.println("CPF: "+cpf);
+        System.out.println("sexo: "+sexo);
+        System.out.println("andar: "+andar);
     }
 
 

@@ -11,8 +11,18 @@ public class Medico extends Pessoa {
         super(nome, endereco, idade, cpf, sexo, andar );
         this.crm = crm;     
         this.salario = salario;
-        this.especializacao =especializacao;   
+        this.especializacao = especializacao;   
         this.plantao = plantao;
+    }
+
+    public void imprimirValores(){
+        System.out.println("---------------");
+        System.out.println("Medico:");
+        super.imprimirValores();
+        System.out.println("CRM: "+crm);
+        System.out.println("Salario: "+salario);
+        System.out.println("Especializacao: " +especializacao);
+        System.out.println("Horario de plantao? "+plantao);
     }
 
 

@@ -6,7 +6,17 @@ public class Hospital {
     
     
     
-    
+
+    public Hospital(String nome, String endereco) {
+        this.nome = nome;
+        this.endereco = endereco;
+    }
+
+
+    public void imprimirValores(){
+        System.out.println("Hospital "+nome);
+        System.out.println("Endereco: "+endereco);
+    }
     
     
     public String getNome() {
