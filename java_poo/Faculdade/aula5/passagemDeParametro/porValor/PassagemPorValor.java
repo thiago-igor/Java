@@ -1,11 +1,11 @@
-package java_poo.Faculdade.aula5.passagemDeParametro;
+package java_poo.Faculdade.aula5.passagemDeParametro.porValor;
 
 public class PassagemPorValor {
 	
 	public static void main(String[] args) {
 		int numero = 5; // definiçao de valor fora do metodo
 		int resultado = quadrado(numero);
-		System.out.println("N�mero: "+numero); // Imprime: 5
+		System.out.println("Numero: "+numero); // Imprime: 5
 		System.out.println("Resultado: "+resultado); // Imprime: 4
 	}
 	
