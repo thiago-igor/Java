@@ -5,7 +5,7 @@ public class TestePassagemParametrosJava {
 	public static void main(String[] args) {
 		// declaraçao de variaveis
 		int x = 5;
-		Pessoa p = new Pessoa("Jo�o");
+		Pessoa p = new Pessoa("JoAo");
 		// utilizar variaveis nos metodos criados
 		alterar(x);
 		alterar(p);
