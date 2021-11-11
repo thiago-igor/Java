@@ -4,22 +4,16 @@ public class Teste {
     
     public static void main(String[] args){
 
-        Aluno a1 = new Aluno();
-        Professor p1 = new Professor();
+        Aluno a1 = new Aluno("Thiago", 20, "M", 200345, "Ciencia Da Computacao"); // Preenchendo o construtor
+        Professor p1 = new Professor("Sebastiao", 56, "M", "java script", 19900); // Preenchendo o construtor
 
-        a1.setNome("thiago");
-        a1.setIdade(20);
-        a1.setSexo("M");
+        a1.fazerAniversario(); // Funçao soma +1 na idade do aluno (OBS: como esse metodo esta na classe MAE, tanto o prof, quanto o aluno podem fazer aniversario)
 
-        p1.setNome("Andre");
-        p1.setIdade(44);
-        p1.setSexo("M");
-        p1.setEspecialidade("professor de matematica");
-        p1.setSalario(12500);
-        p1.receberAumento(500);
+        p1.receberAumento(100); // Funçao aumenta o salario do prof em 100 reais (OBS: como esse metodo esta na classe professor, so o Professor pode acessa-lo) 
 
-        System.out.println(a1.toString());
-        System.out.println(p1.toString());
+        a1.imprimirStatus(); // funçao imprime o status do construtor 
+        p1.imprimirStatus(); // funçao imprime o status do construtor
+
 
 
     }

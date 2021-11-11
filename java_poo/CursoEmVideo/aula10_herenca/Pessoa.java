@@ -1,12 +1,26 @@
 package java_poo.CursoEmVideo.aula10_herenca;
 
-public class Pessoa {
+public abstract class  Pessoa {
 
-    // ATRIBUTOS:
-
+    // ATRIBUTOS CLASSE PRINCIPAL:
     private String nome;
     private int idade;
     private String sexo;
+
+    
+    //CONSTRUTOR CLASSE PRINCIPAL:
+    public Pessoa(String nome, int idade, String sexo) {
+        this.nome = nome;
+        this.idade = idade;
+        this.sexo = sexo;
+    }
+    // METODOS:
+
+    public void imprimirStatus(){
+        System.out.println("Nome: "+nome);
+        System.out.println("Idade: "+idade);
+        System.out.println("Sexo: "+sexo);
+    }
 
     public void fazerAniversario(){
         this.idade++;
