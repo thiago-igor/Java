@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula5.passagemDeParametro.questao;
+package java_poo.Faculdade.aula5_Sobrescrita.passagemDeParametro.questao;
 
 public class Pessoa {
 

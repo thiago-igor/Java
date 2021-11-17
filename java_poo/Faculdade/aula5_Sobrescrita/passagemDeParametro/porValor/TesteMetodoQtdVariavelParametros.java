@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula5.passagemDeParametro.porValor;
+package java_poo.Faculdade.aula5_Sobrescrita.passagemDeParametro.porValor;
 
 public class TesteMetodoQtdVariavelParametros {
 	

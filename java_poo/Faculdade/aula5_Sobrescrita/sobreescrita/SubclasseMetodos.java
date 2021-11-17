@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula5.sobreescrita;
+package java_poo.Faculdade.aula5_Sobrescrita.sobreescrita;
 
 public class SubclasseMetodos extends SuperclasseMetodos {
 

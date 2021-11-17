@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula5.passagemDeParametro.questoes;
+package java_poo.Faculdade.aula5_Sobrescrita.passagemDeParametro.questoes;
 
 public class Qst4 {
 

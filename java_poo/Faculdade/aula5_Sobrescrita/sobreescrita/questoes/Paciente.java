@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula5.sobreescrita.questoes;
+package java_poo.Faculdade.aula5_Sobrescrita.sobreescrita.questoes;
 
 public class Paciente extends Pessoa {
 
