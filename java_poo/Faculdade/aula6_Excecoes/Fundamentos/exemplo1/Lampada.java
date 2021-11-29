@@ -10,7 +10,7 @@ public class Lampada {
 		if (tipo=='i' || tipo=='f' || tipo=='l')
 			this.tipo = tipo;
 		else
-			throw new TipoLampadaException("Tipo invalido. Use 'i', 'f' ou 'l'.");
+			throw new TipoLampadaException("Tipo invalido. Use 'i', 'f' ou 'l'."); 
 	}
 	public char getTipo() { return tipo; }
 }

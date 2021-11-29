@@ -13,7 +13,7 @@ public class Escrever {
 
         // aguarda usuario fornrcer
 
-        String nome = sc.nextLine();
+        String nome = sc.nextLine(); // (nexLine): ler uma linha, ou seja, qualquer coisa lida transforma em uma string.   (nextInt) : ler um inteiro.    (nextDouble): ler um Double
         
         //imprimir na tela o texto fornecido
         System.out.println("seu nome e "+nome);
