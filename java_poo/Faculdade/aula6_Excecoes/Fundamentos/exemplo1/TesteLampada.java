@@ -10,7 +10,7 @@ public class TesteLampada {
 			
 			Lampada l2 = new Lampada('x');
 			System.out.println("Lampada l2: "+l2.getTipo());
-		} catch (TipoLampadaException e) {
+		} catch (Exception e) {
 			System.out.println("Use apenas 'i', 'f' ou 'l'.");
 		}
 

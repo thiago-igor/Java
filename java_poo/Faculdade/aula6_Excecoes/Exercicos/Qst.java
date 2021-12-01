@@ -2,7 +2,7 @@ package java_poo.Faculdade.aula6_Excecoes.Exercicos;
 
 import java.util.Scanner;
 
-public class Qst5 {
+public class Qst {
 
     public static void main (String[] args){
 
