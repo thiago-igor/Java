@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula6_Excecoes.Atividades.Atividade1;
+package java_poo.Faculdade.aula6_Excecoes.Atividades.Atividade1.Qst5;
 
 import java.util.Scanner;
 
