@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula6_Excecoes.Fundamentos;
+package java_poo.Faculdade.aula6_Excecoes.Aula.Fundamentos;
 
 public class TesteException {
 	
