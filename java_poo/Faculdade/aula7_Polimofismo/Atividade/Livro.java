@@ -35,7 +35,7 @@ public class Livro extends Produto {
 
     @Override
     public String toString() {
-        return "Produto:" + getNome()+ "Descricao: " + getDescricao() + "Preco: " + getPreco() + "Livro [ISBN=" + ISBN + ", autores=" + autores + ", editora=" + editora + "]";
+        return "Produto:" + getNome()+ "\nDescricao: " + getDescricao() + "\nPreco: " + getPreco() + "\nISBN=" + ISBN + "\nAutores=" + autores + "\nEditora=" + editora+ "\n--------";
     }
 
     

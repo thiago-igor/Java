@@ -34,12 +34,12 @@ public class Produto {
     
     @Override
     public String toString() {
-        return "Produto [Produto: " + nome + ", Descricao: " + descricao + ", preco:" + preco + "]";
+        return "Produto: " + nome + "\nDescricao: " + descricao + "\nPreco:" + preco + "\n--------";
     }
 
 
     @Override
-    public boolean equals(Object obj) {
+    public boolean equals(Object obj) { // usado para comparar objetos com o comando ".equals"
         if (this == obj)
             return true;
         if (obj == null)
