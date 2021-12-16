@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula7_Polimofismo.Exemplos_Aula.Ex2;
+package java_poo.Faculdade.aula8_Polimofismo.Exemplos_Aula.Ex2;
 
 public class Teste {
     public static void main(String[] args) {

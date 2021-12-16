@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula7_Polimofismo.ToString;
+package java_poo.Faculdade.aula8_Polimofismo.ToString;
 
 public class Valor {
 	int v;

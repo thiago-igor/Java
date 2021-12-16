@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula7_Polimofismo.Atividade;
+package java_poo.Faculdade.aula8_Polimofismo.Atividade;
 
 public class Produto {
     private String nome;

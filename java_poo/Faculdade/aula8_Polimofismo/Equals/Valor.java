@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula7_Polimofismo.Equals;
+package java_poo.Faculdade.aula8_Polimofismo.Equals;
 
 public class Valor {
 	int v;

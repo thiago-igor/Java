@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula7_Polimofismo.Exemplos_Aula.Ex1;
+package java_poo.Faculdade.aula8_Polimofismo.Exemplos_Aula.Ex1;
 
 class Forma {
 	public void desenhar() {
