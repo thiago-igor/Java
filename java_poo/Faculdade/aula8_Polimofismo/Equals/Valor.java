@@ -2,9 +2,9 @@ package java_poo.Faculdade.aula8_Polimofismo.Equals;
 
 public class Valor {
 	int v;
-	public Valor(int v) { this.v = v; }
+	public Valor(int v) { this.v = v; } 
 	public boolean equals(Object o) { // usado para sobrescrever o metodo equals
-		if (o instanceof Valor) {
+		if (o instanceof Valor) {  // OBS: o propio visual(VSC) faz o metodo equals para voce
 			Valor val = (Valor)o;
 			return val.v==v;
 		} else return false;
@@ -20,3 +20,4 @@ public class Valor {
 		System.out.println(v1.equals(v2)); // true
 	}
 }
+
