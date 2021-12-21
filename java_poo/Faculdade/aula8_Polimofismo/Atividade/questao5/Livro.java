@@ -1,6 +1,10 @@
-package java_poo.Faculdade.aula8_Polimofismo.Atividade;
+package java_poo.Faculdade.aula8_Polimofismo.Atividade.questao5;
 
-public class Livro extends Produto {
+public class Livro extends Produto{
+
+    private String autores;
+    private String ISBN;
+    private String editora;
 
     public Livro(String nome, String descricao, float preco, String autores, String iSBN, String editora) {
         super(nome, descricao, preco);
@@ -8,9 +12,6 @@ public class Livro extends Produto {
         ISBN = iSBN;
         this.editora = editora;
     }
-    private String autores;
-    private String ISBN;
-    private String editora;
 
 
     public String getAutores() {
@@ -35,7 +36,7 @@ public class Livro extends Produto {
 
     @Override
     public String toString() {
-        return "Produto:" + getNome()+ "\nDescricao: " + getDescricao() + "\nPreco: " + getPreco() + "\nISBN=" + ISBN + "\nAutores=" + autores + "\nEditora=" + editora+ "\n--------";
+        return "Livro: " + getNome()+ "\nDescricao: " + getDescricao() + "\nRS: " + getPreco() + "\nISBN: " + ISBN + "\nAutores: " + autores + "\nEditora: " + editora+ "\n--------";
     }
 
     
@@ -66,8 +67,5 @@ public class Livro extends Produto {
         return true;
     }
 
-
-    
-    
 
 }

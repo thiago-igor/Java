@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula8_Polimofismo.Atividade;
+package java_poo.Faculdade.aula8_Polimofismo.Atividade.questao5;
 
 public class Produto {
     private String nome;
@@ -34,7 +34,7 @@ public class Produto {
     
     @Override
     public String toString() {
-        return "Produto: " + nome + "\nDescricao: " + descricao + "\nPreco:" + preco + "\n--------";
+        return "\nProduto: " + nome + "\nDescricao: " + descricao + "\nRS: " + preco + "\n--------";
     }
 
 
@@ -61,7 +61,4 @@ public class Produto {
             return false;
         return true;
     }
-
-    
-    
 }
