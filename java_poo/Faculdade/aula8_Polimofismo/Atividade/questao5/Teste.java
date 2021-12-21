@@ -53,7 +53,7 @@ public class Teste {
             System.out.print("Nome =>");
             L1.setNome(sc.nextLine());
             L1.setNome(sc.nextLine());
-
+            
             System.out.print("Descricao => ");
             L1.setDescricao(sc.nextLine());
 
