@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula6_Excecoes.Aula.Fundamentos.Inicio;
+package java_poo.Faculdade.aula6_Excecoes.Aula.Fundamentos.exemplo1;
 
 import java.util.Scanner;
 
