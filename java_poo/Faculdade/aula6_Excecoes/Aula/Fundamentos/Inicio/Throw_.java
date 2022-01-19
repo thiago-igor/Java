@@ -1,6 +1,6 @@
-package java_poo.Faculdade.aula6_Excecoes.Aula.Fundamentos.exemplo1;
+package java_poo.Faculdade.aula6_Excecoes.Aula.Fundamentos.Inicio;
 
-public class TesteException {
+public class Throw_ {
 	
 	public static void main (String[] args){
 		try{
