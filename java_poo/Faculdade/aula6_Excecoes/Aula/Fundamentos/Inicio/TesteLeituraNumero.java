@@ -8,7 +8,7 @@ public class TesteLeituraNumero {
 		boolean ok = false;
 		while(ok==false){
 			System.out.println("Informe um numero:");
-			try{ // ponto do codigo que pode ocorrer um erro( ex: digitar uma palavra em vez do numero )
+			try{ // bloco monitorado para erros( ex: digitar uma palavra em vez do numero )
 				int numero = Integer.parseInt(sc.nextLine());
 				System.out.println("Numero informado:" + numero);
 				ok = true;
