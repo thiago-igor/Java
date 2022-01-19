@@ -9,7 +9,7 @@ public class TesteNaoPositivoException {
 		Scanner sc = new Scanner(System.in);
 		while (ok == false) {
 			try {
-				System.out.println("Informe um n�mero positivo:");
+				System.out.println("Informe um numero positivo:");
 				int numero = sc.nextInt();
 				if (numero<0) throw new NaoPositivoException();
 				ok = true;
