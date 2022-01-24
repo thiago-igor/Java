@@ -5,6 +5,8 @@ public abstract class Forma {
 	public abstract void aumentar(int valor);
 }
 
+// como "Poligono" tbm é abstrato, nao é obrigado usar os metodos da superclasse
+
 abstract class Poligono extends Forma {
 	private int lados;
 	public Poligono(int lados) {

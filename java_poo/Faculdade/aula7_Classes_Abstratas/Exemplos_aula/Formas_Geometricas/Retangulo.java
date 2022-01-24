@@ -2,6 +2,8 @@ package java_poo.Faculdade.aula7_Classes_Abstratas.Exemplos_aula.Formas_Geometri
 
 public class Retangulo extends Poligono {
 
+	// como a classe "Retangulo" é concreta, tem que execultar todos os metodos acima na hierarquia de herança
+
 	public Retangulo(int lados) {
 		super(4);
 	}
