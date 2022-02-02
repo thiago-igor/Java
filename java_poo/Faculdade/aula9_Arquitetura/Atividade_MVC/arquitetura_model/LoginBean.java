@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula9_Arquitetura.Atividade.arquitetura_model;
+package java_poo.Faculdade.aula9_Arquitetura.Atividade_MVC.arquitetura_model;
 
 public class LoginBean {
 	

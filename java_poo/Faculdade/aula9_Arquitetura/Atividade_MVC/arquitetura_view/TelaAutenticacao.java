@@ -1,4 +1,4 @@
-package java_poo.Faculdade.aula9_Arquitetura.Atividade.arquitetura_view;
+package java_poo.Faculdade.aula9_Arquitetura.Atividade_MVC.arquitetura_view;
 
 
 import java.awt.event.ActionEvent;
@@ -11,8 +11,8 @@ import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
-import java_poo.Faculdade.aula9_Arquitetura.Atividade.arquitetura_controller.CtrlLogin;
-import java_poo.Faculdade.aula9_Arquitetura.Atividade.arquitetura_model.LoginBean;
+import java_poo.Faculdade.aula9_Arquitetura.Atividade_MVC.arquitetura_controller.CtrlLogin;
+import java_poo.Faculdade.aula9_Arquitetura.Atividade_MVC.arquitetura_model.LoginBean;
 
 public class TelaAutenticacao extends JFrame {
 	

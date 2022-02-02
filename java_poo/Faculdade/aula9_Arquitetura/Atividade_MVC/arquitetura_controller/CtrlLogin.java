@@ -1,7 +1,7 @@
-package java_poo.Faculdade.aula9_Arquitetura.Atividade.arquitetura_controller;
+package java_poo.Faculdade.aula9_Arquitetura.Atividade_MVC.arquitetura_controller;
 
-import java_poo.Faculdade.aula9_Arquitetura.Atividade.arquitetura_model.LoginBean;
-import java_poo.Faculdade.aula9_Arquitetura.Atividade.arquitetura_model.LoginDAO;
+import java_poo.Faculdade.aula9_Arquitetura.Atividade_MVC.arquitetura_model.LoginBean;
+import java_poo.Faculdade.aula9_Arquitetura.Atividade_MVC.arquitetura_model.LoginDAO;
 
 public class CtrlLogin {
 	
