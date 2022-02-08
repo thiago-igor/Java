@@ -1,0 +1,11 @@
+javax.swing.JOptionPane
+
+Interface mais simples
+
+Utilização de caixas de diálogo
+
+Métodos estáticos da classe JOptionPane:  
+    showConfirmDialog(): sim, não, cancela
+    showInputDialog(): entrada de dados
+    showMessageDialog(): saída de dados
+    showOptionDialog(): opções personalizadas
