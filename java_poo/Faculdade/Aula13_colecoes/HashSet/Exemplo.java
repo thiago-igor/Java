@@ -13,6 +13,7 @@ public class Exemplo {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		Pessoa p1 = new Pessoa("Maria",sdf.parse("10/06/2006"));
 		Pessoa p2 = new Pessoa("Maria",sdf.parse("15/09/2000"));
+		
 		conjuntoPessoas.add(p1); conjuntoPessoas.add(p2);
 		System.out.println(conjuntoPessoas);
 	}
