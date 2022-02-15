@@ -1,4 +1,4 @@
-package java_poo.Faculdade.Aula13_colecoes.ArrayList;
+package java_poo.Faculdade.Aula13_colecoes.ArrayList.Ordenacao_simples;
 
 import java.util.ArrayList;
 import java.util.List;
