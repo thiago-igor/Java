@@ -2,7 +2,9 @@ package java_poo.Faculdade.Aula13_colecoes.ArrayList.Ordenaçao_Complexa;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-public class Pessoa implements Comparable<Pessoa>{
+
+public class Pessoa implements Comparable<Pessoa>{ //Comparable<Pessoa> : aqui estamos mostrando oque sera comparado para ocorrer a ordenação correta na classe "ListaPessoasComOrdenaçao"
+
 	private String nome, cpf;
 	private Date nascimento;
 	private SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
@@ -11,17 +13,17 @@ public class Pessoa implements Comparable<Pessoa>{
 		this.nome = nome;
 		this.nascimento = nascimento;
 	}
-	public int compareTo(Pessoa p) {
-		if (nascimento.before(p.nascimento))
+	public int compareTo(Pessoa p) { //compareTo: mostrando o que comparar para assim ordenarmos o array
+		if (nascimento.before(p.nascimento)) // retorna "-1" se a data for antes
 			return -1;
-		else if (nascimento.after(p.nascimento))
+		else if (nascimento.after(p.nascimento)) // retorna "-1" se a data for depois 
 			return 1;
-		else return 0;
+		else return 0; // retorna 0 se for igual
 	}
 	// restante do codigo
 
 	public String toString() {
-		return nome+", "+sdf.format(nascimento);
+		return nome+", "+sdf.format(nascimento);// esse metodo "format" devolve uma String no padrão: "dd/MM/yyyy"
 	}
 
 	public String getNome() {

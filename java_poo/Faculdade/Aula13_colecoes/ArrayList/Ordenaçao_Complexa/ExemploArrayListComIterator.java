@@ -14,8 +14,8 @@ public class ExemploArrayListComIterator {
 		Pessoa p2 = new Pessoa("Joao",sdf.parse("15/09/2000"));
 		listaPessoas.add(p1); listaPessoas.add(p2);  
 		Iterator<Pessoa> itr = listaPessoas.iterator();
-		while (itr.hasNext()) {
-			Pessoa p = itr.next();
+		while (itr.hasNext()) { // retorna boolean sempre quando tiver um prox na interação 
+			Pessoa p = itr.next(); //pegar o valor 
 			System.out.println(p.getNome());
 		}
 	}
