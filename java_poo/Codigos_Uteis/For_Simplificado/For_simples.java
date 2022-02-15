@@ -2,15 +2,12 @@ package java_poo.Codigos_Uteis.For_Simplificado;
 
 public class For_simples {
     public static void main(String[] args) {
-		Forma[] fs = new Forma[] {
-			new Circulo(), new Quadrado(),
-			new Triangulo(), new Forma()
-		};
-		metodoPolimorfico(fs);
-	}
-	public static void metodoPolimorfico(Forma[] fs) { // usado quando queremos percorrer todo o vetor!
-		for (Forma f: fs) {
-			f.desenhar();
+		
+		int[] notas = new int[10];
+
+		for(int nota : notas){
+			System.out.println(nota); // inprime tudo que estar no meu array. nesse caso imprime "0" pois nao adicionei nada
 		}
+		
 	}
 }
