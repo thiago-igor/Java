@@ -5,6 +5,7 @@ public class Pessoa implements Comparable<Pessoa>{
 	private String nome, cpf;
 	private Date nascimento;
 	private SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+	
 	public Pessoa(String nome, String cpf, Date nascimento) {
 		this.nome = nome; this.cpf = cpf;
 		this.nascimento = nascimento;
